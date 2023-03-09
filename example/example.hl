@@ -8,4 +8,12 @@ priv let x = => {
   fmt.print("capture\n")
 }
 
+class Example {
+  &go.bind("examplePrint")
+  fn print() = nil
+}
+
+let boolean = true
+priv let core = $^mod
+
 x()
