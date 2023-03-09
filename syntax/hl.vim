@@ -13,7 +13,7 @@ syn match hlVariable /\<[A-Za-z0-9_.\[\]*]\+\>/
 syn match hlParenthesis /(/
 syn match hlFunction    /\w\+(/ contains=hlParenthesis
 
-syn keyword hlKeyword for in if fn let
+syn keyword hlKeyword for in if fn let priv
 
 syn region hlString start=/"/ end=/"/ contains=hlEscape,hlInterpolation
 syn region hlString start=/<<-\?\z([A-Z]\+\)/ end=/^\s*\z1/ contains=hlEscape,hlInterpolation
