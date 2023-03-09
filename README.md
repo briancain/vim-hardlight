@@ -1,6 +1,8 @@
 # vim-hardlight
 
-A hardlight syntax highlighting plugin for vim.
+A hardlight syntax highlighting plugin for vim. This plugin will be a work in
+progress as the Hardlight programming language is developed. Some pieces of the
+language don't look right yet but this is a good first pass!
 
 ## Installation
 
