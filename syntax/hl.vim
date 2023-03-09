@@ -30,7 +30,7 @@ syn match hlNumber /\<\d\+\%([eE][+-]\?\d\+\)\?\>/
 syn match hlNumber /\<\d*\.\d\+\%([eE][+-]\?\d\+\)\?\>/
 syn match hlNumber /\<0[xX]\x\+\>/
 
-syn keyword hlConstant true false null
+syn keyword hlConstant true false nil
 
 syn region hlInterpolation start=/\${/ end=/}/ contained contains=hlInterpolation
 
